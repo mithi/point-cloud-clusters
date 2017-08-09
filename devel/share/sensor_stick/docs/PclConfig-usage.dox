@@ -1,0 +1,9 @@
+\subsubsection usage Usage
+\verbatim
+<node name="sensor_stick" pkg="sensor_stick" type="sensor_stick">
+  <param name="axis" type="int" value="2" />
+  <param name="min" type="double" value="0.77" />
+  <param name="max" type="double" value="2.0" />
+</node>
+\endverbatim
+

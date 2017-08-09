@@ -1,0 +1,8 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~axis" : \b [int] Select Axis min: 0, default: 2, max: 2
+- \b "~min" : \b [double] min min: -0.5, default: 0.77, max: 3.0
+- \b "~max" : \b [double] max min: -0.5, default: 2.0, max: 3.0
+
