@@ -1,16 +1,16 @@
 # point-cloud-clusters
 
 I apply a clustering technique called DBSCAN to identify which points in a point cloud belong to the same object.
-You can learn more about [PCL here](http://pointclouds.org/documentation/tutorials/).
 
 - This is the [second perception exercise](https://github.com/udacity/RoboND-Perception-Exercises/tree/master/Exercise-2) 
 from [Udacity's RoboND](https://www.udacity.com/robotics).
 
 - This builds upon my [solution for the first perception exercise](https://github.com/mithi/point-cloud-filter) 
-where I apply techniques to separate our object of interest.
+where I apply techniques to separate our objects of interest.
 
-# DBSCAN Related links
-You can learn more about DBSCAN in the following links
+# Related links
+You can learn more about [PCL here](http://pointclouds.org/documentation/tutorials/).
+You can learn more about DBSCAN in the following links:
 - https://www.naftaliharris.com/blog/visualizing-dbscan-clustering/
 - http://scikit-learn.org/stable/auto_examples/cluster/plot_dbscan.html
 
