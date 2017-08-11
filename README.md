@@ -16,12 +16,12 @@ You can learn more about DBSCAN in the following links:
 
 # Dependencies
 - You need an Ubuntu 16.04.2 with ROS full-desktop-version which includes RViz and Gazebo
-- You must clone the repository, go inside the directory and install the dependencies
+- You must clone the repository, go inside the directory and install the dependencies:
 ```
 $ rosdep install --from-paths src --ignore-src --rosdistro=kinetic -y
 $ catkin_make
 ```
- - Add following to your .bashrc file
+ - Add the following to your `.bashrc` file:
  ```
 export GAZEBO_MODEL_PATH=~/catkin_ws/src/sensor_stick/models
 source ~/catkin_ws/devel/setup.bash
