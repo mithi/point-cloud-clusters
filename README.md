@@ -31,8 +31,8 @@ source ~/catkin_ws/devel/setup.bash
 - On one terminal run `$ roslaunch sensor_stick robot_spawn.launch` 
 - On another terminal go inside `/src/sensor_stick/scripts/` folder in this repository
 - Then run `$ python clustering.py`
-- `RViz` should run, select the `/pcl_cluster` from the *topics dropdown* 
+- `RViz` should run, select the `/pcl_cluster` from the **Topics dropdown**
 
-[Clustered Objects](https://github.com/mithi/point-cloud-clusters/blob/master/img/screenshot.png)
-[Clustered Objects](https://github.com/mithi/point-cloud-clusters/blob/master/img/screenshot2.png)
+![Clustered Objects](https://github.com/mithi/point-cloud-clusters/blob/master/img/screenshot.png)
+![Clustered Objects](https://github.com/mithi/point-cloud-clusters/blob/master/img/screenshot2.png)
 
