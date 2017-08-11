@@ -8,6 +8,11 @@ from [Udacity's RoboND](https://www.udacity.com/robotics).
 - This builds upon my [solution for the first perception exercise](https://github.com/mithi/point-cloud-filter) 
 where I apply techniques to separate our objects of interest.
 
+# Important Files
+- https://github.com/mithi/point-cloud-clusters/blob/master/src/sensor_stick/scripts/clustering.py
+- https://github.com/mithi/point-cloud-clusters/blob/master/src/sensor_stick/scripts/filtering_helper.py
+- https://github.com/mithi/point-cloud-clusters/blob/master/src/sensor_stick/scripts/pcl_helper.py
+
 # Related links
 You can learn more about [PCL here](http://pointclouds.org/documentation/tutorials/).
 You can learn more about DBSCAN in the following links:
