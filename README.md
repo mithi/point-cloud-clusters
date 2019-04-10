@@ -9,15 +9,15 @@ from [Udacity's RoboND](https://www.udacity.com/robotics).
 where I apply techniques to separate our objects of interest.
 
 # Important Files
-- https://github.com/mithi/point-cloud-clusters/blob/master/src/sensor_stick/scripts/clustering.py
-- https://github.com/mithi/point-cloud-clusters/blob/master/src/sensor_stick/scripts/filtering_helper.py
-- https://github.com/mithi/point-cloud-clusters/blob/master/src/sensor_stick/scripts/pcl_helper.py
+- [Clustering Script](./src/sensor_stick/scripts/clustering.py)
+- [Filtering Helper Functions](./src/sensor_stick/scripts/filtering_helper.py)
+- [Other PCL Functions](./src/sensor_stick/scripts/pcl_helper.py)
 
 # Related links
 You can learn more about [PCL here](http://pointclouds.org/documentation/tutorials/).
 You can learn more about DBSCAN in the following links:
-- https://www.naftaliharris.com/blog/visualizing-dbscan-clustering/
-- http://scikit-learn.org/stable/auto_examples/cluster/plot_dbscan.html
+- [Naftali Harris: Visualizing DBSCAN Clustering](https://www.naftaliharris.com/blog/visualizing-dbscan-clustering/)
+- [SKLearn DBSCAN Plot](http://scikit-learn.org/stable/auto_examples/cluster/plot_dbscan.html)
 
 # Dependencies
 - You need an Ubuntu 16.04.2 with ROS full-desktop-version which includes RViz and Gazebo
@@ -38,6 +38,6 @@ source ~/catkin_ws/devel/setup.bash
 - Then run `$ python clustering.py`
 - `RViz` should run, select the `/pcl_cluster` from the **Topics dropdown**
 
-![Clustered Objects](https://github.com/mithi/point-cloud-clusters/blob/master/img/screenshot.png)
-![Clustered Objects](https://github.com/mithi/point-cloud-clusters/blob/master/img/screenshot2.png)
+![Clustered Objects](./img/screenshot.png)
+![Clustered Objects](./img/screenshot2.png)
 
