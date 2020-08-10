@@ -1,8 +1,0 @@
-prefix=/home/mithi/catkin_ws/install
-
-Name: sensor_stick
-Description: Description of sensor_stick
-Version: 0.0.0
-Cflags: -I/home/mithi/catkin_ws/install/include
-Libs: -L/home/mithi/catkin_ws/install/lib 
-Requires: 
